@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey Research Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Research Form</h1>
+  <p id="description">Hello my name is <a href="https://facebook.com/mjasper30" target="_blank">Jasper David Macaraeg</a> from <abbr title="University of Caloocan City">UCC</abbr> South Campus, I am here to conduct a survey about the "Effects of Playing Mobile Legends to the Academic Perfomance". Please provide your information respectfully and provide honest answer to questions. <br><br><strong>Note!</strong> All of information coming from this survey is just for academic purposes only. Thank You</p>
+
+  <!-- Form -->
+  <form id="survey-form" method="post">
+    <fieldset>
+      <legend><b>Basic Information</b></legend>
+    <label for="name" id="name-label">Name: </label><br>
+      <input type="text" id="name" nama="name" placeholder="Enter your name" required><br>
+    <label for="email" id="email-label">Email: </label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+      <label for="email" id="email-label">Year when started playing mobile legends: </label><br>
+      <input type="text" id="start-date" name="text" placeholder="Enter date" required><br>
+    <label for="number" id="number-label">Age: <br>
+      <input type="number" id="number" placeholder="Age" min=1 max=120><br>
+    </label>
+    <label for="gender" id="gender-label">Gender:<br>
+      <input type="radio" id="gender-label" value="Male" name="gender">Male
+      <input type="radio" id="gender-label" value="Female" name="gender">Female
+    </label><br>
+    <label for="course" id="course">Course: <br>
+      <select id="dropdown">
+        <option value="">Select Course</option>
+        <option value="1">BSCS</option>
+        <option value="2">BSIT</option>
+        <option value="3">BSEMC</option>
+        <option value="4">BSIS</option>
+      </select>
+    </label>
+    <br>
+    <label for="role" id="ml-role">Role in ML:<br>
+    <input type="checkbox" value="Marksman"> Marksman<br>
+    <input type="checkbox" value="Mage" value="Mage"> Mage <br>
+    <input type="checkbox" value="Tank"> Tank<br>
+    <input type="checkbox" value="Assassin"> Fighter
+    </label><br>
+    </fieldset>
+
+
+    <fieldset>
+      <legend><b>Questions 1<b></legend>
+      <p>
+        <b>
+          How many hours do you spend playing Mobile Legends?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 2</legend>
+      <p>
+        <b>
+          How do you handle your time between studying and playing Mobile Legends?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 3</legend>
+      <p>
+        <b>
+          Do you just play Mobile Legends when you have free time, and if so, why?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 4</legend>
+      <p>
+        <b>
+          What is your General Weighted Average (GWA) before and after you started playing Mobile Legends?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 5</legend>
+      <p>
+        <b>
+          How does playing Mobile Legends affect your studies?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 6</legend>
+      <p>
+        <b>
+          Does playing Mobile Legends helps your academic performance? How?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 7</legend>
+      <p>
+        <b>
+          What issues did you encounter while playing Mobile Legends that had an effect on your academic performance?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Questions 8</legend>
+      <p>
+        <b>
+          What advice can you give to students that are playing Mobile Legends and studying at the same time?
+        <b>
+      </p>
+      <textarea rows=5 cols=30></textarea>
+    </fieldset>
+
+<center><br>
+  <input type="submit" id="submit" value="Submit">
+</center>
+  </form>
+</body>
+</html>
